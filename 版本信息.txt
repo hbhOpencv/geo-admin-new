@@ -1,0 +1,8 @@
+系统名称：地质模型管理系统
+交付类型：完整源码 + Windows 64 位独立运行环境 + 精选演示数据
+交付日期：2026-08-20
+源代码基线：master / 474fbfd，并包含 2026-08-20 打包时工作区内尚未提交的化学三维优化代码
+化学三维算法：geochem-anisotropic-idw-v1-trend-residual-full-field
+前端地址：http://127.0.0.1:8000/login
+默认账号：admin
+默认密码：admin123

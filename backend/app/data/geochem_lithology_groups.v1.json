@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "mapping_version": "v1",
+  "status": "confirmed",
+  "source_constraint_job_id": "b66a0a28a10d4654a50f21deecd0d2eb",
+  "source_lithology_map_sha256": "004AE962772251D98EE44A7BEF415C6F9CC16A25AA736F76DE67EBC6300B0300",
+  "confirmed_by": "用户依据2026-08-09汇报对话确认",
+  "confirmed_at": "2026-08-10T00:00:00+08:00",
+  "groups": [
+    {
+      "group_id": -1001,
+      "group_name": "花岗岩归并组（已确认三类）",
+      "member_names": [
+        "二长花岗岩",
+        "黑云母二长花岗岩",
+        "花岗细晶岩"
+      ],
+      "basis": "汇报对话中已确认的同类岩性示例；用户已明确待确定项按确认执行",
+      "allow_cross_member_interpolation": true
+    }
+  ],
+  "unmapped_policy": "keep_original",
+  "fault_policy": "never_merge",
+  "notes": [
+    "仅以上三个精确名称进入归并组，不按名称关键词自动扩展。",
+    "乱码岩性不归并，必须回溯源数据后另行处理。",
+    "断层、断层泥、断层破碎带、破碎带、压碎岩等构造或破碎类对象不归并。"
+  ]
+}
